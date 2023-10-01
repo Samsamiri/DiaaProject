@@ -59,7 +59,7 @@
 /* Assombrir le fond de la section d'entête (bg)*/
 #top {
     position: relative;
-    height: 105vh;
+    height: 95vh;
     border-bottom: 1px solid #000;
     text-align: center; /* Pour centrer le bouton */
     background-color: rgba(0, 0, 0, 0.5); /* Fond avec transparence */
