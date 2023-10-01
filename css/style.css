@@ -59,7 +59,7 @@
 /* Assombrir le fond de la section d'entête (bg)*/
 #top {
     position: relative;
-    height: 95vh;
+    height: 105vh;
     border-bottom: 1px solid #000;
     text-align: center; /* Pour centrer le bouton */
     background-color: rgba(0, 0, 0, 0.5); /* Fond avec transparence */
@@ -84,7 +84,7 @@
 /* Bouton de défilement */
 .button-wrapper {
     position: absolute;
-    bottom: 45px;
+    bottom: 90px;
     left: 0;
     right: 0;
     text-align: center;
