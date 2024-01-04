@@ -294,29 +294,6 @@ h6 {
   transition: 0.5s;
 }
 
-
-
-@media (max-width: 1250px) {
-
-  .logo2 {
-    display: none;
-  }
-}
-
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-
-  .navbar ul {
-    display: none;
-  }
-
-  .logo2 {
-    display: inline;
-  }
-}
-
 .navbar-mobile {
   position: fixed;
   overflow: hidden;
@@ -1020,16 +997,6 @@ section {
   }
 }
 
-@media (max-width: 535px) {
-  .logo2{
-    display: none;
-  }
-
-  #header .logo{
-    padding-left: 15px;
-  }
-}
-
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -1564,4 +1531,48 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+@media (max-width: 535px) {
+  .logo2{
+    font-size: 5px;
+  }
+
+  #header .logo{
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .logo2 {
+    font-size: 5px;
+    display: inline;
+  }
+}
+
+@media (max-width: 1250px) {
+  .logo2 {
+    font-size: 25px !important;
+    transition: 1.5s;
+    height: auto; /* ou une valeur spécifique si nécessaire */
+    width: auto; /* ou une valeur spécifique si nécessaire */
+  }
+}
+
+@media (max-width: 518px) {
+
+  .logo2 {
+    font-size: 20px !important;
+    transition: 1.5s;
+    height: auto; /* ou une valeur spécifique si nécessaire */
+    width: auto; /* ou une valeur spécifique si nécessaire */
+  }
 }
